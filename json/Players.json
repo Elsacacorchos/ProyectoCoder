@@ -1,0 +1,28 @@
+[
+    {
+        "nombre": "Kareem",
+        "apellido": "Abdul-Jabbar",
+        "totalPoints": "38,387"
+    },
+    {
+        "nombre": "Karl",
+        "apellido": "Malone",
+        "totalPoints": "36,928"
+    },
+    {
+        "nombre": "Lebron",
+        "apellido": "James",
+        "totalPoints": "36,107"
+    },
+    {
+        "nombre": "Kobe",
+        "apellido": "Bryant",
+        "totalPoints": "33,643"
+    },
+    {
+        "nombre": "Michael",
+        "apellido": "Jordan",
+        "totalPoints": "32,292"
+    }
+  
+]
