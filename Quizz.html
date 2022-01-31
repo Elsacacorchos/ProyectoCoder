@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel=StyleSheet href="css/Quizz.css"  media=screen>
+
+  </head>
+  <body id="body" >
+
+        <a href="index.html">Volver al incio</a>
+        <div class="start_btn"><button>Empezar quizz</button></div>
+        
+        <div class="info_box">
+            <div class="info-title"><span>Algunas reglas</span></div>
+            <div class="info-list">
+                <div class="info">1. Solo tendras<span> 15 segundos</span> por pregunta</div>
+                <div class="info">2. Una vez selecciones una respuesta no podras cambiarla</div>
+                <div class="info">3. Ganaras puntos por cada respuesta acertada</div>
+            </div>
+            <div class="buttons">
+                <button class="quit">Salir</button>
+                <button class="restart">Continuar</button>
+            </div>
+        </div>
+
+        <div class="quiz_box">
+            <header>
+                <div class="title">NBA QUIZZ</div>
+                <div class="timer">
+                    <div class="time_left_txt">Tiempo</div>
+                    <div class="timer_sec">15</div>
+                </div>
+                <div class="time_line"></div>
+            </header>
+            <section>
+                <div class="que_text">
+                </div>
+                <div class="option_list">
+                </div>
+            </section>
+
+            <footer>
+                <div class="total_que">
+                </div>
+                <button class="next_btn">Siguiente</button>
+            </footer>
+        </div>
+
+        <div class="result_box">
+            <div class="icon">
+                <i class="fas fa-crown"></i>
+            </div>
+            <div class="complete_text">Haz completado el quizz</div>
+            <div class="score_text">
+            </div>
+            <div class="buttons">
+                <button class="restart">Reintentar</button>
+                <button class="quit">Salir</button>
+            </div>
+        </div>
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/Quizz.js"></script>
+        <script src="js/Questions.js"></script>
+
+      
+    </body>
+</html>
+
